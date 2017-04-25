@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/todo_item_type_icon_container"
+        app:layout_widthPercent="20%"
+        app:layout_aspectRatio="100%"
+        android:layout_margin="@dimen/todo_icon_margin"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:background="@color/orange_red">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="LT"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_toRightOf="@id/todo_item_type_icon_container"
+        app:layout_widthPercent="50%"
+        app:layout_aspectRatio="200%"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/todo_item_location"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/todo_item_date_from_to"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="2dp"
+            android:textSize="15sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/todo_item_description"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="2dp"
+            android:textSize="15sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/todo_item_user_image"
+        app:layout_widthPercent="20%"
+        app:layout_aspectRatio="100%"
+        android:layout_margin="@dimen/todo_icon_margin"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"/>
+
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_counting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.folb.salmobile.activities.lousecounting.LouseCountingActivity">
+
+    <RelativeLayout
+        android:id="@+id/counting_header_container"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="10%"
+        android:layout_alignParentTop="true">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fish_tracker_container"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="5%"
+        android:orientation="horizontal"
+        android:layout_below="@id/counting_header_container"/>
+
+    <RelativeLayout
+        android:id="@+id/navbar_container"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="16%"
+        android:layout_alignParentBottom="true"/>
+
+    <GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="69%"
+        android:layout_below="@id/fish_tracker_container"/>
+
+</android.support.percent.PercentRelativeLayout>

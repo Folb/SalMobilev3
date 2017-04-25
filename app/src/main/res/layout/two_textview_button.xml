@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/twoTextviewButton"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/upper_text"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="70%"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/lice_tracker_font_size"/>
+
+    <TextView
+        android:id="@+id/lower_text"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="30%"
+        android:gravity="center"
+        android:layout_below="@id/upper_text"
+        android:textSize="@dimen/lice_name_font_size"
+        android:textColor="@color/black"/>
+
+</android.support.percent.PercentRelativeLayout>

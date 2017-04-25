@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_meny"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MenuActivity">
+
+    <RelativeLayout
+        android:id="@+id/menu_header_container"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="10%"/>
+
+    <GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="80%"
+        android:layout_below="@id/menu_header_container"/>
+
+    <RelativeLayout
+        android:id="@+id/navbar_container"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="10%"
+        android:layout_below="@id/gridlayout"/>
+
+</android.support.percent.PercentRelativeLayout>

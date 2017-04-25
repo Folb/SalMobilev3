@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SalMobile</string>
+    <string name="left_arrow">&#xf0a8;</string>
+    <string name="menu">&#xf03a;</string>
+    <string name="right_arrow">&#xf0a9;</string>
+    <string name="done">&#xf058;</string>
+    <string name="edit">&#xf044;</string>
+    <string name="send">&#xf1d8;</string>
+    <string name="temp">&#xf2c8;</string>
+
+    <!-- Menu buttons -->
+    <string name="dead_fish_icon">&#xf00d;</string>
+    <string name="settings_icon">&#xf013;</string>
+    <string name="louse_counting_icon">&#xf188;</string>
+    <string name="own_def_icon">&#xf0f6;</string>
+    <string name="agd_icon">&#xf1de;</string>
+    <string name="enviroment_icon">&#xf0c3;</string>
+
+    <string name="NO_countingDeadFishDesc">Telling av \n dødfisk</string>
+    <string name="NO_enviromentVariables">Måling av \n Miljøparameter</string>
+    <string name="NO_agd">Gjelleskåring \n av AGD</string>
+    <string name="NO_louseCounting">Lusetelling</string>
+    <string name="NO_ownDef">Egendefinert \n Oppgave</string>
+    <string name="NO_settings">Innstillinger</string>
+
+    <!-- Counting buttons -->
+    <string name="NO_fastsittende">FASTSITTENDE</string>
+    <string name="NO_litenBev">LITEN \n BEVEGELIGHET</string>
+    <string name="NO_storBev">STOR \n BEVEGELIGHET</string>
+    <string name="NO_kjonnsmoden">KJØNNSMODEN \n HUNNLUS</string>
+    <string name="NO_skottelus">SKOTTELUS</string>
+    <string name="NO_plusMinus">LEGG TIL / \n TREKK I FRA</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/three_button_navbar"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/fst"
+        app:layout_widthPercent="28%"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_margin="@dimen/lice_button_margin">
+        <TextView
+            android:id="@+id/fst_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/lice_tracker_font_size"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/snd"
+        app:layout_widthPercent="36%"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_margin="@dimen/lice_button_margin"
+        android:layout_toRightOf="@id/fst">
+        <TextView
+            android:id="@+id/snd_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:clickable="true"
+            android:textSize="@dimen/lice_tracker_font_size"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/thr"
+        app:layout_widthPercent="28%"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_margin="@dimen/lice_button_margin"
+        android:layout_toRightOf="@id/snd">
+        <TextView
+            android:id="@+id/thr_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:clickable="true"
+            android:textSize="@dimen/lice_tracker_font_size"/>
+
+    </RelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>
