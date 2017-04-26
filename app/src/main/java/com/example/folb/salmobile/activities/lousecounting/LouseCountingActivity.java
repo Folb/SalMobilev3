@@ -21,12 +21,15 @@ import android.widget.TextView;
 
 import com.example.folb.salmobile.R;
 import com.example.folb.salmobile.UIUtils.CountingButton;
+import com.example.folb.salmobile.activities.lousecounting.fragments.LouseCountingHeader;
 import com.example.folb.salmobile.fragments.ThreeButtonNavbarFragment;
 import com.example.folb.salmobile.models.LouseCounting;
 import com.example.folb.salmobile.supportClasses.FontChanger;
 import com.example.folb.salmobile.supportClasses.Support;
 import com.example.folb.salmobile.supportClasses.UI;
 import com.google.gson.Gson;
+
+import org.w3c.dom.Text;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -44,7 +47,9 @@ public class LouseCountingActivity extends AppCompatActivity {
     private boolean bucketSet;
     private boolean finish;
 
+    private TextView tracker;
     private ThreeButtonNavbarFragment navbar;
+    LouseCountingHeader header;
     private RelativeLayout navbarContainer;
 
     @Override
@@ -52,6 +57,7 @@ public class LouseCountingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_counting);
         navbarContainer = (RelativeLayout) findViewById(R.id.navbar_container);
+        tracker = (TextView) findViewById(R.id.tracker);
         curFish = 0;
         getCounting();
         if (counting == null) {
@@ -60,7 +66,6 @@ public class LouseCountingActivity extends AppCompatActivity {
         } else {
             bucketSet = counting.isBucketSet();
         }
-        Log.i(TAG, "onCreate: bucketset= " + bucketSet);
         if (buttons == null) {
             views = new ArrayList<>();
             initButtons();
@@ -76,12 +81,14 @@ public class LouseCountingActivity extends AppCompatActivity {
         FragmentManager manager = getSupportFragmentManager();
         FragmentTransaction trans = manager.beginTransaction();
         setNavBar(trans);
+        setHeader(trans);
         trans.commit();
     }
 
     @Override
     protected void onResume() {
         Log.i(TAG, "onResume: ");
+        tracker.setText(Integer.toString(curFish+1));
         super.onResume();
     }
 
@@ -111,6 +118,18 @@ public class LouseCountingActivity extends AppCompatActivity {
             json = extras.getString("counting");
         }
         counting = new Gson().fromJson(json, LouseCounting.class);
+        Log.i(TAG, "getCounting: " + counting);
+    }
+
+    private FragmentTransaction setHeader(FragmentTransaction trans) {
+        Bundle b = new Bundle();
+        String s = counting.getLocation() + " : " + counting.getPenNmb();
+        b.putString("location", s);
+        header = new LouseCountingHeader();
+        header.setArguments(b);
+        trans.add(R.id.counting_header_container, header, "header");
+        return trans;
+
     }
 
     private FragmentTransaction setNavBar(FragmentTransaction trans) {
@@ -353,8 +372,6 @@ public class LouseCountingActivity extends AppCompatActivity {
     }
 
     public void nextPressed() {
-        Log.i(TAG, "nextPressed: ");
-        Log.i(TAG, "nextPressed: " + bucketSet);
         if (finish) {
             goToOverview();
             return;
@@ -366,7 +383,7 @@ public class LouseCountingActivity extends AppCompatActivity {
         curFish++;
         if (counting.getFishes().size() == curFish && !bucketSet) {
             counting.addNewFish();
-            counting.getFishes().get(curFish).setBucket(false);
+            counting.getFishes().get(curFish-1).setBucket(false);
         }
         updateAllTrackers();
     }
@@ -374,6 +391,12 @@ public class LouseCountingActivity extends AppCompatActivity {
     private void updateAllTrackers() {
         for (int i = 100; i <= 112; i += 3) {
             updateTrackers(findViewById(i));
+        }
+
+        if(!finish) {
+            tracker.setText(Integer.toString(curFish + 1));
+        } else {
+            tracker.setText("Stamp");
         }
 
         if (!plus) {

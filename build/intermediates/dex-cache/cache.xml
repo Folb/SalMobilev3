@@ -3,192 +3,192 @@
 
     <item
         is-multidex="true"
-        jar="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/exploded-aar/com.android.support/percent/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1fc708e023161b0dd4d6fa6e7c3dee593c920b55">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-percent-25.3.1_8c0a92a7e6d57d2758d802f0c31930561daafa74/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/folb/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_5479e0f517b6d3668e24f0d3c7ad561d153ab454/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.3.1_8dac0a6b099f311078fb711d0183cd09c703be31/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/folb/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jar="C:\Users\Follo\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_670c45fcd71c54fd50922f3f55215aff60af65be/classes.dex" />
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_6c5205ce5d1816cb61f5b33e09d0155bb9caf516\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jar="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.3.1_5605a965248b95460021516df9d8dc101b8ab971/classes.dex" />
+        sha1="20356b6e51c980b0e4fbcef0cfcf8df6dbbbf53c">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_13400f3ebeabcaba6667e5ba08a21217fbe92cff\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/exploded-aar/net.danlew/android.joda/2.9.5.1/jars/classes.jar"
+        jar="C:\Users\Follo\.android\build-cache\a4af14bd60fa4999fa2eef2db84b0aaf194aa5e0\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="6c877b2c372dd26a46a0fe1c0fe07f186fb2ac26">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/net.danlew-android.joda-2.9.5.1_c280607cd1336d95520289986862dce235903a5f/classes.dex" />
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_71e392a2884b62c4804457575cc38794c4393288\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.3.1_88628d7d81808fe7518eaa0fa99753b0bedb3b3a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.3.1_badc79d69e994348d831e830fc9e2f121247f509/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/folb/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.3.1/99ce730034c6f5aaed710d1e0e9df95e8714ed5f/logging-interceptor-3.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.3.1_98d0f7573e4dfd565aa84fa488ab8b584d744ac4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.3.1_f58ecfffed2a86b5f5c09c917aad5060be1c8c9d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/folb/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_1e3db899ae0ab0ddaded29a4b2f7787f9d4eca4d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.3.1_4e4062614fbb3db9dd952bbfe8b240bd896c541b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.3.1_fd305a157a9b0cafa33f2105207e9d1dfb12bf21/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.3.1_c0fe963fbc9b13358a4c27807ce254892d0c005b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/folb/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jar="C:\Users\Follo\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_8495e19d569d042f8f068b30449b2568709a948b/classes.dex" />
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_6b5ad6400c2cebaebf364eb6d71405ddfaae5185\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.3.1_19a57f4303c22e6d3ac017d83b0cdd6a0acbe3ac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/folb/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.1_5fc8c1b518ba178ee058583e8a3e610b53d496df/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/folb/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jar="E:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_954fac02afd135ccd86bcfe282ace9bacfba7319/classes.dex" />
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_75c7942c36a382e2ca0bd6e9f4db8fa8bc429a3e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="C:\Users\Follo\.android\build-cache\85385cfc1dd13e56319df89d8792f9c0787480ae\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c29e1d3433f9b5f40890cc70d078e2c0d3769a26">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_999e8fab837deb640ac41bcc74604cb7234b74a7/classes.dex" />
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_823f2bff5c4e62d6e90002c9610e511f5af287e8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/folb/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.6/e380a3ea2f421f6bf6e9091a75694f04720eed2/joda-time-2.9.6-no-tzdb.jar"
+        jar="C:\Users\Follo\.android\build-cache\4bde3b675af1634d33e831c4ae954288834fcdb1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6091160182357c883c09664f727a2d28a72256f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Follo\.android\build-cache\b498eae8e3de29dce9b1b23539ea546c80e35c13\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9ce3d5e62f190d22daaba8aaac4156b57e0a9811\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Follo\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.1\19047bdb6a4fc00a44124f64ca98e88fc204e7e3\okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_00bd194823922dbce5fd26c6f9f567628c31bb6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c81a3a9bf7520f60fe87f891fc34f8206d32f43b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Follo\.android\build-cache\a0a19c99d14e76b26952908a0e069f4d5bcd57c4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fc708e023161b0dd4d6fa6e7c3dee593c920b55">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_819957fab9ef9783e712a275a9724518eb1f3340\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Follo\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_52116c9568950dd43f5db3a4607e4b706558ba3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Follo\.android\build-cache\e4dbb4257c0dd11aaee212349530e44ae4b40d4f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3c06df2cd2c403630106baba3db4049a21f830db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Follo\.android\build-cache\3f77ea38cb86d4b55e4e0cab186b1061e9f8a017\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d610585052545a2e54fdf39de824b9a6dda43db9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Follo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.7_76c26d6e619082bcf101fd7503ce6144ea82f451\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Follo\.android\build-cache\033a2ddca255dbdb60378d96a62d458f9e52a884\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_116e46cd9bf37d462a9bc35d7c7b7a8c2c5a16c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Follo\.android\build-cache\d1eaf9689658080122dcdd1edea13c932646cea7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7eb2fa9afb9d5cbe0cd39ba9361d226f59f38229\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Follo\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.9.6\e380a3ea2f421f6bf6e9091a75694f04720eed2\joda-time-2.9.6-no-tzdb.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="0e380a3ea2f421f6bf6e9091a75694f04720eed2">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/joda-time-2.9.6-no-tzdb_bf84e8bb51f4b27ef7dd33a4c09234d03f0e2b4f/classes.dex" />
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\joda-time-2.9.6-no-tzdb_77a02d8ddc1e3d0d5a881b345e8ff1dd1b8c87d8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="C:\Users\Follo\.android\build-cache\96ee883930c6e196aafe82c424c8b47d9915a531\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="04b1c1113102557cd3705a13bf052dbf914cbfb3">
-        <dex dex="/home/folb/Documents/GitHub/SalMobile/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9ce376efafec6226204b0ed5281df45a506416b8/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b90024321fea4d58612504c107ad00f292ae87f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Follo\.android\build-cache\b7cd683adc89a27e955011124952ae88908b8872\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b2628e65c0db18135fdfb6910858bea7d9347551\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Follo\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.3.1\99ce730034c6f5aaed710d1e0e9df95e8714ed5f\logging-interceptor-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
+        <dex dex="C:\Users\Follo\Documents\GitHub\SalMobilev3\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.3.1_25608b367d426b24ad023682f2ea7d7819cd07e8\classes.dex" />
     </item>
 
 </items>

@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.example.folb.salmobile.R;
 import com.example.folb.salmobile.activities.lousecounting.LouseCountingActivity;
+import com.example.folb.salmobile.activities.lousecounting.LouseCountingOverviewActivity;
 import com.example.folb.salmobile.models.LouseCounting;
 import com.example.folb.salmobile.supportClasses.FontChanger;
 
@@ -69,17 +70,17 @@ public class ThreeButtonNavbarFragment extends Fragment implements View.OnClickL
 
             }
         } else {
-//            switch (v.getId()) {
-//                case (R.id.fst_button):
-//                    ((CountOverview) getActivity()).setMessage();
-//                    break;
-//                case (R.id.snd_button):
-//                    ((CountOverview) getActivity()).setTemp();
-//                    break;
-//                case (R.id.thr_button):
-//                    ((CountOverview) getActivity()).send();
-//                    break;
-//            }
+            switch (v.getId()) {
+                case (R.id.fst_button):
+                    ((LouseCountingOverviewActivity) getActivity()).setMessage();
+                    break;
+                case (R.id.snd_button):
+                    ((LouseCountingOverviewActivity) getActivity()).setTemp();
+                    break;
+                case (R.id.thr_button):
+                    ((LouseCountingOverviewActivity) getActivity()).send();
+                    break;
+           }
         }
     }
 

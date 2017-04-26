@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="15%"
+        android:textColor="@color/black"
+        android:textSize="@dimen/create_counting_text_size"
+        android:text="Opprett lusetelling"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/location_container"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="15%"
+        android:orientation="horizontal"
+        android:layout_below="@id/header"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/location_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/orange"
+            android:textSize="@dimen/create_counting_text_size"/>
+
+        <TextView
+            android:id="@+id/location_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="8dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/create_counting_text_size"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pen_container"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="15%"
+        android:orientation="horizontal"
+        android:layout_below="@id/location_container"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/pen_nmb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Merdnummer: "
+            android:textColor="@color/black"
+            android:textSize="@dimen/create_counting_text_size" />
+
+        <TextView
+            android:id="@+id/pen_switcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/create_counting_text_size"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/user_container"
+        android:layout_width="match_parent"
+        app:layout_heightPercent="15%"
+        android:layout_below="@id/pen_container"
+        android:orientation="vertical"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tellers navn: "
+            android:textColor="@color/black"
+            android:textSize="@dimen/create_counting_text_size" />
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/confirm"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="85%"
+        android:background="@color/orange"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/user_container"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/confirm_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="OPPRETT"
+            android:textSize="45sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+</android.support.percent.PercentRelativeLayout>

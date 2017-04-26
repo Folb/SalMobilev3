@@ -14,17 +14,155 @@
         android:layout_alignParentTop="true">
     </RelativeLayout>
 
+    <TextView
+        android:id="@+id/summary"
+        app:layout_heightPercent="6%"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:text="OPPSUMMERING"
+        android:textStyle="bold"
+        android:layout_below="@id/overview_header_container"/>
+
     <ListView
         android:id="@+id/listview"
         android:layout_width="match_parent"
-        app:layout_heightPercent="59%"
-        android:layout_below="@id/overview_header_container"/>
+        app:layout_heightPercent="49%"
+        android:layout_below="@id/summary"/>
 
-    <GridLayout
-        android:id="@+id/gridlayout"
+    <RelativeLayout
+        android:id="@+id/line"
+        app:layout_heightPercent="1%"
         android:layout_width="match_parent"
-        app:layout_heightPercent="15%"
-        android:layout_below="@id/listview"/>
+        android:layout_below="@id/listview"
+        android:background="@color/black"/>
+
+
+    <android.support.percent.PercentRelativeLayout
+        android:id="@+id/totAvgContainer"
+        app:layout_heightPercent="18%"
+        android:layout_width="match_parent"
+        android:layout_below="@id/line">
+
+        <TextView
+            android:id="@+id/total"
+            app:layout_widthPercent="25%"
+            app:layout_heightPercent="50%"
+            android:gravity="center"
+            android:textSize="@dimen/category_text_size"
+            android:textColor="@color/black"
+            android:text="Total:"
+            android:background="@color/white"/>
+
+        <TextView
+            android:id="@+id/average"
+            app:layout_widthPercent="25%"
+            app:layout_heightPercent="50%"
+            android:gravity="center"
+            android:textSize="@dimen/category_text_size"
+            android:textColor="@color/black"
+            android:text="Snitt:"
+            android:layout_below="@id/total"
+            android:background="@color/white"/>
+
+        <TextView
+        android:id="@+id/fs_total"
+        app:layout_widthPercent="15%"
+        app:layout_heightPercent="50%"
+        android:gravity="center"
+        android:textSize="@dimen/category_text_size"
+        android:layout_toRightOf="@id/total"
+        android:background="@color/blue"/>
+
+        <TextView
+            android:id="@+id/lb_total"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="50%"
+            android:gravity="center"
+            android:textSize="@dimen/category_text_size"
+            android:layout_toRightOf="@id/fs_total"
+            android:background="@color/green"/>
+
+        <TextView
+            android:id="@+id/sb_total"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="50%"
+            android:gravity="center"
+            android:textSize="@dimen/category_text_size"
+            android:layout_toRightOf="@id/lb_total"
+            android:background="@color/orange"/>
+
+        <TextView
+            android:id="@+id/kh_total"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="50%"
+            android:gravity="center"
+            android:textSize="@dimen/category_text_size"
+            android:layout_toRightOf="@id/sb_total"
+            android:background="@color/orange_red"/>
+
+        <TextView
+            android:id="@+id/sl_total"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="50%"
+            android:gravity="center"
+            android:textSize="@dimen/category_text_size"
+            android:layout_toRightOf="@id/kh_total"
+            android:background="@color/yellow"/>
+
+        <TextView
+            android:id="@+id/fs_average"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="50%"
+            android:gravity="center"
+            android:textSize="@dimen/category_text_size"
+            android:layout_toRightOf="@id/average"
+            android:layout_below="@id/fs_total"
+            android:background="@color/blue"/>
+
+        <TextView
+            android:id="@+id/lb_average"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="50%"
+            android:gravity="center"
+            android:textSize="@dimen/category_text_size"
+            android:layout_toRightOf="@id/fs_average"
+            android:layout_below="@id/lb_total"
+            android:background="@color/green"/>
+
+        <TextView
+            android:id="@+id/sb_average"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="50%"
+            android:gravity="center"
+            android:textSize="@dimen/category_text_size"
+            android:layout_toRightOf="@id/lb_average"
+            android:layout_below="@id/sb_total"
+            android:background="@color/orange"/>
+
+        <TextView
+            android:id="@+id/kh_average"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="50%"
+            android:gravity="center"
+            android:textSize="@dimen/category_text_size"
+            android:layout_toRightOf="@id/sb_average"
+            android:layout_below="@id/kh_total"
+            android:background="@color/orange_red"/>
+
+        <TextView
+            android:id="@+id/sl_average"
+            app:layout_widthPercent="15%"
+            app:layout_heightPercent="50%"
+            android:gravity="center"
+            android:textSize="@dimen/category_text_size"
+            android:layout_toRightOf="@id/kh_average"
+            android:layout_below="@id/sl_total"
+            android:background="@color/yellow"/>
+
+
+    </android.support.percent.PercentRelativeLayout>
 
     <RelativeLayout
         android:id="@+id/navbar_container"

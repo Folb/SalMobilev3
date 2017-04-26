@@ -125,6 +125,7 @@ public class MenuActivity extends AppCompatActivity {
                 Intent i = new Intent(getBaseContext(), gotoClass);
                 Log.i(TAG, "onClick: " + gotoClass.toString());
                 startActivity(i);
+                finish();
             }
         });
 
@@ -136,7 +137,7 @@ public class MenuActivity extends AppCompatActivity {
         MenuButton deadFish = new MenuButton(this, R.color.blue, R.string.dead_fish_icon, R.string.NO_countingDeadFishDesc, CreateDeadFishCountingActivity.class);
         MenuButton environmentParams = new MenuButton(this, R.color.green, R.string.enviroment_icon, R.string.NO_enviromentVariables, CreateEnvironmentParamsActivity.class);
         MenuButton agd = new MenuButton(this, R.color.orange, R.string.agd_icon, R.string.NO_agd, CreateAGDActivity.class);
-        MenuButton louseCounting = new MenuButton(this, R.color.orange_red, R.string.louse_counting_icon, R.string.NO_louseCounting, LouseCountingActivity.class);
+        MenuButton louseCounting = new MenuButton(this, R.color.orange_red, R.string.louse_counting_icon, R.string.NO_louseCounting, CreateLouseCountingActivity.class);
         MenuButton ownDef = new MenuButton(this, R.color.yellow, R.string.own_def_icon, R.string.NO_ownDef, CreateOwnDefAvtivity.class);
         MenuButton settings = new MenuButton(this, R.color.grey, R.string.settings_icon, R.string.NO_settings, SettingsActivity.class);
         buttons.put("DeadFish", deadFish);
